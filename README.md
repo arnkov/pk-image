@@ -6,4 +6,5 @@ in=path/to/image \
 out=path/to/image \
 r=shrink factor as int (optional)\
 mask=path/to/image (optional)\
-The mask argument packs the red channel of the specified image into the alpha channel of the output. Useful for packing specular/roughness maps or just alpha masks.
+The mask argument packs the red channel of the specified image into the alpha channel of the output. Useful for packing specular/roughness maps or just alpha masks. \
+The MIT license applies to skimage.c, for the licenses of the other files, please have a look into the headers.
